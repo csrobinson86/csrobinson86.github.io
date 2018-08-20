@@ -1,0 +1,33 @@
+{
+  "name": "csrobinson86.github.io",
+  "version": "1.0.0",
+  "description": "Casey Robinson Personal Webpage",
+  "main": "index.js",
+  "repository": "git@github.com:csrobinson86/csrobinson86.github.io.git",
+  "author": "Casey Robinson csrobinson86@gmail.com",
+  "license": "no",
+  "private": false,
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "production": "webpack --mode production"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "install": "^0.12.1",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-clean-plugin": "^0.2.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-md5-hash": "^0.0.6"
+  }
+}
