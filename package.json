@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "dev": "webpack --mode development --watch",
-    "production": "webpack --mode production"
+    "production": "webpack --mode production ./src/index.js --output ./index.js"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.2",
