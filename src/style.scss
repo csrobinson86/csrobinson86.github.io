@@ -1,25 +1,93 @@
 @import 'normalize.css';
 
+$orange: #F9690E;
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    line-height: 1.5;
+    background-color: #ECE6E6;
 }
 
-header {
-    background-image: url('./header-night-min.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 650px;
-    padding-bottom: 80px;
+a {
+    text-decoration: none;
 }
 
-.inner-container {
+p {
+    font-weight: 100;
+}
+
+.container {
     max-width: 1080px;
+    margin: 0 auto;
+    padding: 16px;
 }
 
 .logo {
     font-family: 'Caveat', cursive;
-    color: #F9BF3B;
     font-size: 1.5em;
-    margin: 3px;
+
+    a {
+        color: $orange;
+        background-color: transparent;
+    }
+}
+
+.main__content {
+    text-align: center;
+    color: #2C3E50;
+    padding: 48px 0 24px;
+
+    h1 {
+        font-size: 1.5em;
+        font-weight: 800;
+        margin-bottom: 24px;
+
+        .heading-color {
+            color: $orange;
+        }
+    }
+
+    p {
+        font-size: 0.875em;
+    }
+
+    @media (min-width: 760px) {
+        h1 {
+            font-size: 3em;
+        }
+        p {
+            font-size: 1.25em;
+        }
+    }
+
+    h2 {
+        color: $orange;
+        margin-top: 100px;
+    }
+}
+
+.main__contact {
+    a {
+        padding: 8px;
+        color: #2C3E50;
+
+        &:hover, :focus {
+            color: $orange;
+        }
+    }
+    span {
+        font-size: 2em;
+    }
+    .stack {
+        color: #F27421;
+    }
+    .github {
+        color: #212529;
+    }
+    .linkedin {
+        color: #006CAC;
+    }
+    .email {
+        color: #C0392B;
+    }
 }
