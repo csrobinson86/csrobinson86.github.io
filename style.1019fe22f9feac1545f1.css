@@ -348,8 +348,6 @@ a {
   text-decoration: none;
 }
 body {
-  font-family: 'Overpass', sans-serif;
-  line-height: 1.5;
   background-color: #ECE6E6; }
 
 a {
@@ -371,6 +369,8 @@ p {
     background-color: transparent; }
 
 .main__content {
+  font-family: 'Overpass', sans-serif;
+  line-height: 1.5;
   text-align: center;
   color: #2C3E50;
   padding: 48px 0 24px; }

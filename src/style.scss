@@ -3,8 +3,6 @@
 $orange: #F9690E;
 
 body {
-    font-family: 'Overpass', sans-serif;
-    line-height: 1.5;
     background-color: #ECE6E6;
 }
 
@@ -33,6 +31,8 @@ p {
 }
 
 .main__content {
+    font-family: 'Overpass', sans-serif;
+    line-height: 1.5;
     text-align: center;
     color: #2C3E50;
     padding: 48px 0 24px;
