@@ -351,7 +351,7 @@ body {
   background-color: #ECE6E6; }
 
 a {
-  text-decoration: none; }
+  outline: none; }
 
 p {
   font-weight: 100; }
@@ -394,8 +394,10 @@ p {
 .main__contact a {
   padding: 8px;
   color: #2C3E50; }
-  .main__contact a:hover, .main__contact a :focus {
+  .main__contact a:hover {
     color: #F9690E; }
+  .main__contact a:focus {
+    border: 2px solid; }
 
 .main__contact span {
   font-size: 2em; }

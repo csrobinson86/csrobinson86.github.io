@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    outline: none;
 }
 
 p {
@@ -71,8 +71,12 @@ p {
         padding: 8px;
         color: #2C3E50;
 
-        &:hover, :focus {
+        &:hover {
             color: $orange;
+        }
+
+        &:focus {
+            border: 2px solid;
         }
     }
     span {
